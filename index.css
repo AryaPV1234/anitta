@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.main{
+    background-image: linear-gradient(#6a6494,#ffffff);
+    width: 100%;
+    height: 100vh; 
+    display: flex; 
+}
+
+.mainButton button{
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    color: rgb(244, 244, 248);
+    background-color: #282250;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    
+}
+.mainButton button:hover {
+    background-image: linear-gradient(#6a6494,hsl(269, 75%, 11%));
+    color: white;
+    font-weight: 700;
+} 
+.mainImg img{
+    width: 550px;
+    height: 450px;
+    position: relative;
+    top: 15%;
+    padding-left: 20%;
+    display: inline-block;
+    border-radius: 50%;
+}
+.mainHeading h3{
+    position: absolute;
+    left: 55%;
+    letter-spacing: 1px;
+    color: rgb(27, 21, 51);
+    font-weight: bold;
+    font-size: 40px;
+    top: 15%;
+    font-family: 'Poppins', sans-serif;
+}
+.mainContent p{
+    color: rgb(29, 23, 51);
+    position: absolute;
+    left: 55%;
+    right: 10%;
+    top: 30%;
+    text-align: justify;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.mainImg .backImg {
+    display: none;
+    position: absolute;
+    top: 15%;
+    padding-left: 8.3%;
+    z-index: 10;
+}
+
+.mainImg:hover .backImg{
+    display: inline;
+}
